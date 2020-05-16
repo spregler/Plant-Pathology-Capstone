@@ -9,8 +9,8 @@
 
 ### Problem Statement
   It is imperative that early action is taken to detect such threats; allowing farmers to take the necessary treatment tailored towards the specific threat. This is a simple MULTI-CLASS CLASSIFICATION problem where the network will take in an image as input and output probabilities of the image belongs to each class. Another problem with multi-class classification is how the data is represented in the training set. Luckily, the data is balanced and each class has equal representation.
-Datasets and Inputs
-	This project was inspired in part by the Kaggle “Plant Pathology 2020 -FGVC7” challenge[https://www.kaggle.com/c/plant-pathology-2020-fgvc7]. I must also thank the researchers who created the dataset, which consists of 3,651 high-quality manually captured images of leaves. 
+### Datasets and Inputs
+This project was inspired in part by the Kaggle “Plant Pathology 2020 -FGVC7” challenge[https://www.kaggle.com/c/plant-pathology-2020-fgvc7]. I must also thank the researchers who created the dataset, which consists of 3,651 high-quality manually captured images of leaves. 
 The data lives in the ‘input’ folder. Inside this folder, there is a folder named ‘plant-pathology-2020-fgvc7’ where there are three .csv files, namely, ‘train.csv’, ‘test.csv’ and ‘sample_submission.csv’. 
 The train.csv file consists of a dataframe of 5 columns and 1,821 rows. Along the column axis, there is a column for each class namely, ‘healthy’, ‘multiple_diseases’, ‘rust’ and ‘scab’ as well as an index column containing the image id. If the image instance belongs a class (e.g. ‘healthy’), there will be a ‘1’ in that column and a ‘0’ in other columns. 
 The test.csv file only contains a single column for the image id. This is standard and to be expected. We are not supposed to know the class of the image, it is for our model to decide. Like I said there is also a sample_submission.csv file in the folder as well however, this is only relevant in the context of the Kaggle competition from where I found the data, so this is not the business of Udacity and I will not go further in explaining it.
@@ -23,7 +23,7 @@ The test.csv file only contains a single column for the image id. This is standa
 
 ### Benchmark Model
 For this project, I will be evaluating my model performance using the ROC AUC (the average of the area under the curve of each predicted column) mainly because this is the evaluation metric used in the Kaggle competition to assess performance
-Evaluation Metrics
+### Evaluation Metrics
 In addition, I will be using the results outlined in the original paper above as my benchmark. Using an out-of-box ResNet50 pre-trained on ImageNet, the researchers were able to achieve 97% accuracy. My goal is to meet or exceed this performance. 
 Project Design 
  ![image](https://github.com/spregler/Plant-Pathology-Capstone/blob/master/resources/1_r2eKvfvYPQuizKLOh9q7Hw.jpeg)
