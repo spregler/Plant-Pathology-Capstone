@@ -1,8 +1,7 @@
 # Machine Learning Engineer Nanodegree
 ## Capstone Proposal—Plant Pathology
-Seth Pregler
-May 15, 2020
-Proposal 
+### Seth Pregler
+### May 15, 2020 Proposal 
 ![image](https://github.com/spregler/Plant-Pathology-Capstone/blob/master/resources/apples.jpg)
 ### Domain Background 
   Currently the US apple industry is worth approximately $15 billion annually [The Plant Pathology 2020 challenge dataset to classify foliar disease of apples]. This makes apples one of the most valuable crops in the US. It is estimated that the industry experiences losses in the millions, due to factors such as insects, fungal and viral pathogens, and other infectious threat. Such threat can lower quality of fruit, decrease crop yields, and in some extreme cases, destroy existing fruit bearing trees. These threats lead to adverse economic and environmental outcomes.
