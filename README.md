@@ -1,5 +1,5 @@
 # Machine Learning Engineer Nanodegree
-## Capstone Proposal—Plant Pathology
+### Capstone Proposal—Plant Pathology
 #### Seth Pregler
 #### May 15, 2020
 ![image](https://github.com/spregler/Plant-Pathology-Capstone/blob/master/resources/apples.jpg)
