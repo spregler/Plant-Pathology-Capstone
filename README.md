@@ -3,7 +3,7 @@
 Seth Pregler
 May 15, 2020
 Proposal 
-
+![image](https://github.com/spregler/Plant-Pathology-Capstone/blob/master/resources/apples.jpg)
 ### Domain Background 
   Currently the US apple industry is worth approximately $15 billion annually [The Plant Pathology 2020 challenge dataset to classify foliar disease of apples]. This makes apples one of the most valuable crops in the US. It is estimated that the industry experiences losses in the millions, due to factors such as insects, fungal and viral pathogens, and other infectious threat. Such threat can lower quality of fruit, decrease crop yields, and in some extreme cases, destroy existing fruit bearing trees. These threats lead to adverse economic and environmental outcomes.
 	It is imperative that early action is taken to detect such threats; allowing farmers to take the necessary treatment tailored towards the specific threat. Current treatment is limited to manual inspection of apple trees. This approach brings challenges: the first being that human inspection is both costly and largely inefficient—If we could autotomize this process, we could then speed up detection and treatment. The second challenge with manual scouting is that scouts require a great deal of expertise before they can identify and accurately diagnose an orchard. In the following proposal I will attempt to solve this problem by presenting a solution, minimizing loss, maximizing output, and hopefully doing so in a timely manner.
