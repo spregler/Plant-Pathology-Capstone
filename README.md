@@ -15,6 +15,7 @@ The data lives in the ‘input’ folder. Inside this folder, there is a folder 
 The train.csv file consists of a dataframe of 5 columns and 1,821 rows. Along the column axis, there is a column for each class namely, ‘healthy’, ‘multiple_diseases’, ‘rust’ and ‘scab’ as well as an index column containing the image id. If the image instance belongs a class (e.g. ‘healthy’), there will be a ‘1’ in that column and a ‘0’ in other columns. 
 The test.csv file only contains a single column for the image id. This is standard and to be expected. We are not supposed to know the class of the image, it is for our model to decide. Like I said there is also a sample_submission.csv file in the folder as well however, this is only relevant in the context of the Kaggle competition from where I found the data, so this is not the business of Udacity and I will not go further in explaining it.
 	In addition to the .csv files, there is also an ‘images’ folder within the ‘plant-pathology-2020-fgvc7’ directory. Unsurprisingly, this folder contains the images I will use to train, test, and validate the model. As I previously stated, there are 3,651 high-quality images of leaves. These images were manually captured by the research team and I greatly appreciate them for making it so easy for me.
+![image](https://github.com/spregler/Plant-Pathology-Capstone/blob/master/resources/12.png)
  
 
 ### Solution Statement
