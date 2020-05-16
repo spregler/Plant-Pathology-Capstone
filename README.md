@@ -1,5 +1,5 @@
-Machine Learning Engineer Nanodegree
-### Capstone Proposal—Plant Pathology
+# Machine Learning Engineer Nanodegree
+## Capstone Proposal—Plant Pathology
 Seth Pregler
 May 15, 2020
 Proposal 
