@@ -31,4 +31,4 @@ Project Design
 	First, I will explore the data so I can get a feel for how it is distributed amongst the classes and address unbalances if need be. The next thing I will do is create a transform operation that will be applied to image batches to address differences in how the images are composed (shadows, angles, shape, etc.). Next, I will create a DataLoader and custom Dataset objects that will prepare our data to be fed into the model.
 	Now that the data is processed, the next step is to create a custom network class that extends the torch.nn.Module class. I will be using a Convolutional Neural Network to classify images. Starting out with a ResNet50 architecture, I will experiment with different hyperparameters and then train via forward propagation. I shall utilize Dense Cross Entropy to calculate loss and Adam for optimization.
 	Lastly, I will be practicing my web development skills by deploying my end model to a web application. I plan on experimenting with FastAPI; a light weight, high-performance and easy to learn framework for building web apps.
- 
+ ![image](https://github.com/spregler/Plant-Pathology-Capstone/blob/master/resources/logo-teal.png)
