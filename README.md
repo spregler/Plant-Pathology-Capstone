@@ -26,7 +26,7 @@ For this project, I will be evaluating my model performance using the ROC AUC (t
 Evaluation Metrics
 In addition, I will be using the results outlined in the original paper above as my benchmark. Using an out-of-box ResNet50 pre-trained on ImageNet, the researchers were able to achieve 97% accuracy. My goal is to meet or exceed this performance. 
 Project Design 
- 
+ ![image](https://github.com/spregler/Plant-Pathology-Capstone/blob/master/resources/1_r2eKvfvYPQuizKLOh9q7Hw.jpeg)
   For this project I will be using the PyTorch framework. PyTorch is my framework of choice because it is very ‘Pythonic’ and reasonably simple to pick up. I also enjoy the control it gives me while maintaining its abstraction.
 	First, I will explore the data so I can get a feel for how it is distributed amongst the classes and address unbalances if need be. The next thing I will do is create a transform operation that will be applied to image batches to address differences in how the images are composed (shadows, angles, shape, etc.). Next, I will create a DataLoader and custom Dataset objects that will prepare our data to be fed into the model.
 	Now that the data is processed, the next step is to create a custom network class that extends the torch.nn.Module class. I will be using a Convolutional Neural Network to classify images. Starting out with a ResNet50 architecture, I will experiment with different hyperparameters and then train via forward propagation. I shall utilize Dense Cross Entropy to calculate loss and Adam for optimization.
